@@ -93,6 +93,7 @@ final class ComplicationController: NSObject, CLKComplicationDataSource {
     case .extraLarge:
       //TODO
       break
+    default : break
     }
     handler(entry)
   }
@@ -160,6 +161,7 @@ final class ComplicationController: NSObject, CLKComplicationDataSource {
     case .extraLarge:
       //TODO
       break
+    default : break
     }
     handler(template)
   }
